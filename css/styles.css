@@ -1,0 +1,43 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #691f01;
+    font-family: 'Oswald', sans-serif;
+}
+
+#header-nav {
+    background-color: #975304;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    float: left;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px 10px 0px;
+}
+
+.navbar-brand {
+    float: left;
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-brand span {
+    color: black;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
